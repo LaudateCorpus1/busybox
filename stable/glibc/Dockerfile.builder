@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:buster-slim
+FROM ppc64le/debian:buster-slim
 
 RUN set -eux; \
 	apt-get update; \
