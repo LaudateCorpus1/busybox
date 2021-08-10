@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:buster-slim
+FROM arm64v8/debian:buster-slim
 
 RUN set -eux; \
 	apt-get update; \
